@@ -4,7 +4,9 @@ A class and sample code to use the Kitronik Simply Robotics board for Raspberry 
 
 This is the CircuitPython version. 
 
-To use save `SimplyRobotics.py` file onto the Pico so it can be imported
+To use save `SimplyRobotics.py` file onto the Pico so it can be imported.
+
+You'll also need to copy the `adafruit_pioasm.mpy` file into the `lib` folder on your Pico. You can get this file from the [Adafruit CircuitPython Bundle](https://circuitpython.org/libraries).
 
 ## Import the library and construct an instance:
 ``` python
